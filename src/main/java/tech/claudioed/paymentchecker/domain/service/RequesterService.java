@@ -5,7 +5,7 @@ import java.util.UUID;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import tech.claudioed.paymentchecker.Requester;
+import tech.claudioed.paymentchecker.domain.Requester;
 import tech.claudioed.paymentchecker.domain.exception.RequesterNotFound;
 import tech.claudioed.paymentchecker.domain.repository.RequesterRepository;
 import tech.claudioed.paymentchecker.domain.resource.data.NewRequester;

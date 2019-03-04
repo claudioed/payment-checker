@@ -1,4 +1,4 @@
-package tech.claudioed.paymentchecker;
+package tech.claudioed.paymentchecker.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
-import tech.claudioed.paymentchecker.Requester;
+import tech.claudioed.paymentchecker.domain.Requester;
 import tech.claudioed.paymentchecker.domain.resource.data.NewRequester;
 import tech.claudioed.paymentchecker.domain.service.RequesterService;
 
