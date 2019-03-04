@@ -34,7 +34,7 @@ public class RequesterService {
   }
 
   public Requester find(@NonNull String requesterId) {
-    log.info("Creating new requester...");
+    log.info("Finding new requester...");
     final Optional<Requester> requesterOptional = this.requesterRepository.findById(requesterId);
     if (requesterOptional.isPresent()) {
       log.info("Requester {} is able to process transactions", requesterOptional.get().getId());
